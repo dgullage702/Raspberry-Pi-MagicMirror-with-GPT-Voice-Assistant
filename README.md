@@ -15,7 +15,7 @@ Smart mirror built from cedar wood and powered by a Raspberry Pi 3 B+ running Ma
 ---
 
 ## Overview
-A freestanding smart mirror displaying time, weather, and news while responding to voice commands through a custom GPT-powered assistant.  
+A freestanding smart mirror displaying time, weather, and news while responding to voice commands through a custom GPT API-powered assistant.  
 The project combines a hand-built cedar frame with MagicMirror² (v2.33.0) software and a custom module that listens for the wake word **“mirror.”**
 
 **Purpose**
@@ -100,4 +100,53 @@ The project combines a hand-built cedar frame with MagicMirror² (v2.33.0) softw
 
 ## Photos
 
+- ![](assets/images/IMG_5971.jpg) – Two 8-foot cedar 2×4s for the frame  
+<br><br>
 
+- ![](assets/images/IMG_5972.jpg) – Measured and cut to spec at 45°  
+<br><br>
+
+- ![](assets/images/IMG_5973.jpg) – Test-fit for squareness  
+<br><br>
+
+- ![](assets/images/IMG_5974.jpg) – Plexiglass test-fitted; groove measured and cut  
+<br><br>
+
+- ![](assets/images/IMG_5975.jpg) – Stain sample: red oak  
+<br><br>
+
+- ![](assets/images/IMG_5976.jpg) – Sample piece dried  
+<br><br>
+
+- ![](assets/images/IMG_5979.jpg) – All four sides stained  
+<br><br>
+
+- ![](assets/images/IMG_5981.jpg) – PIR sensor bracket made from scrap wood; top radius added, sanded, and stained  
+<br><br>
+
+- ![](assets/images/IMG_5982.jpg) – Bracket screwed to the top frame piece  
+<br><br>
+
+- ![](assets/images/IMG_5983.jpg) – Test-fitting semi-reflective film on plexiglass for cutting  
+<br><br>
+
+- ![](assets/images/IMG_5984.jpg) – Film cut and water squeegeed out for adhesion  
+<br><br>
+
+- ![](assets/images/IMG_5987.jpg) – Mirror encased in the frame with wood glue and finish screws  
+<br><br>
+
+- ![](assets/images/IMG_5989.jpg) – Monitor stripped down for weight and space savings  
+<br><br>
+
+- ![](assets/images/IMG_5990.jpg) – PIR sensor mounted in the bracket  
+<br><br>
+
+- ![](assets/images/IMG_5991.jpg) – Monitor test-fit in the mirror frame  
+<br><br>
+
+- ![](assets/images/IMG_5992.jpg) – Bracket with screw release created for easy maintenance  
+<br><br>
+
+- ![](assets/images/IMG_6671.jpg) – Mirror in room   
+<br><br>
