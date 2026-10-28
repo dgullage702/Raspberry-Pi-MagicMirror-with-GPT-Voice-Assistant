@@ -188,6 +188,10 @@ The software is done and the mirror is up and running in my room. The one-way fi
 
 Screenshots taken straight from the Pi's HDMI output at 1920×1080.
 
+**Full screen, idle**
+
+![](assets/images/screenshots/01-full-mirror.png)
+
 **Full screen, mid-answer**
 
 ![](assets/images/screenshots/07-full-mirror-answering.png)
