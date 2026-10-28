@@ -10,7 +10,8 @@ Smart mirror built from cedar wood and powered by a Raspberry Pi 3 B+ running Ma
 3. [Electronics](#electronics)
 4. [Software Setup](#software-setup)
 5. [GPT Integration Details](#gpt-integration-details)
-6. [Photos](#photos)
+6. [Finished Build](#finished-build)
+7. [Photos](#photos)
 
 ---
 
@@ -98,6 +99,32 @@ The project combines a hand-built cedar frame with MagicMirror² (v2.33.0) softw
 
 ---
 
+## Finished Build
+
+![](assets/images/mirror-running.jpg)
+
+The software is done and the mirror is up and running in my room. The one-way film still works as a normal mirror, and anything bright on the monitor shows through the glass.
+
+**What's on the screen**
+
+| Area | What it shows |
+| ---- | ------------- |
+| **Top left** | Date and clock with seconds |
+| **Left side** | Upcoming list of class assignments, quizzes, exams, and labs with the course name and due date for each. Holidays get a star, and anything past the first dozen or so items rolls into a "+ more" line |
+| **Top center** | Mic icon with "Say 'mirror' to wake" |
+| **Top right** | Current temp, feels like, wind, humidity, and sunset time |
+| **Right side** | 5-day forecast for Lowell with the low, 10 AM, and high temps |
+| **Bottom center** | NPR News headlines that rotate through |
+
+**How it works day to day**
+1. Walking up to the mirror trips the PIR sensor and the display wakes up.
+2. Saying "mirror" switches the status to "Listening..." and the blue bar shows up at the top.
+3. The question gets transcribed on the Pi with Vosk and sent to GPT-4o-mini. The answer shows up in the middle of the screen and plays through the speaker.
+4. After the answer (or about 10 seconds of silence) it goes back to idle.
+5. PM2 starts MagicMirror and the assistant on boot, so if the power goes out it comes back on its own.
+
+---
+
 ## Photos
 
 - ![](assets/images/IMG_5971.jpg) – Two 8-foot cedar 2×4s for the frame  
@@ -149,4 +176,7 @@ The project combines a hand-built cedar frame with MagicMirror² (v2.33.0) softw
 <br><br>
 
 - ![](assets/images/IMG_6671.jpg) – Mirror in room   
+<br><br>
+
+- ![](assets/images/mirror-running.jpg) – Finished and running  
 <br><br>
